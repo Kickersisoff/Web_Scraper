@@ -31,7 +31,7 @@ app.post("/", async function (req, res) {
             method: 'post',
             url: 'https://data.mongodb-api.com/app/data-bypkn/endpoint/data/v1/action/find',
             headers: {
-                'apikey': 'CQ435TmfqSZavDmVjFepzvpEuDrl8RzUWTeLJidow0yeBw4eCP8IAbBxgskU6KY5',
+                'apikey': '',
                 'Content-Type': 'text/plain'
             },
             data: `{"collection": "${req.body.productInput}-amazons","database":"test", "dataSource":"Cluster0"}`
